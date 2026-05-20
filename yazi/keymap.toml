@@ -1,0 +1,47 @@
+[mgr]
+prepend_keymap = [
+  # SSH plugin
+  { on = ["M","s"], run = "plugin sshfs -- menu",            desc = "Open SSHFS options" },
+  # Enter directory pressing enter/l
+  { on = "<Enter>", run = "plugin smart-enter", desc = "Enter child directory" },
+  { on = "l", run = "plugin smart-enter", desc = "Enter child directory" },
+  # { on = "M", run = "plugin mount" },
+  # Extract plugin
+  {
+    on = ["E","x","x"],
+    run = "plugin lin-decompress -- --no-password",
+    desc = "Extract hovered."
+  },
+  {
+    on = ["E","x","p"],
+    run = "plugin lin-decompress",
+    desc = "Extract hovered. Password"
+  },
+  {
+    on = ["E","x","a"],
+    run = "plugin lin-decompress -- --no-hover --tabselect=all",
+    desc = "Extract selected in all tabs"
+  },
+  {
+    on = ["E","x","A"],
+    run = "plugin lin-decompress -- --tabselect=all",
+    desc = "Extract selected in all tabs. Hovered included"
+  },
+  {
+    on = ["E","x","c"],
+    run = "plugin lin-decompress -- --no-hover --tabselect=current",
+    desc = "Extract selected in current tab only"
+  },
+  # Size plugin
+  {
+    on = ["S"],
+    run = "plugin what-size",
+    desc = "Calc size of selection or cwd"
+  },
+  {
+    on = "%",
+    run = "toggle_all",
+    desc = "Select all files"
+  }
+]
+

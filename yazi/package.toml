@@ -1,0 +1,27 @@
+[[plugin.deps]]
+use = "uhs-robert/sshfs"
+rev = "75a025c"
+hash = "e1cebecfee70daef1f97aa083209340c"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "19dc890"
+hash = "3996fc74044bc44144b323686f887e1"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "03cdd4b"
+hash = "56fdabc96fc1f4d53c96eb884b02a5be"
+
+[[plugin.deps]]
+use = "ZimCodes/lin-decompress"
+rev = "592fee3"
+hash = "1b1eb812c57d18a2047c1e8e1536274f"
+
+[[plugin.deps]]
+use = "pirafrank/what-size"
+rev = "179ebf6"
+hash = "57056b9728006881d580ccabe8154a9c"
+
+[flavor]
+deps = []
