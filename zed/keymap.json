@@ -1,0 +1,17 @@
+[
+  {
+    "context": "Terminal",
+    "bindings": {
+      "shift-enter": [
+        "terminal::SendText",
+        "\u001b\r"
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-tab": "tab_switcher::ToggleAll"
+    }
+  }
+]

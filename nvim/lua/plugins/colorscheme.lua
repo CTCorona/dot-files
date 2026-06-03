@@ -1,17 +1,41 @@
 return {
   -- add themes here
-  { "ellisonleao/gruvbox.nvim" },
   { "rebelot/kanagawa.nvim" },
-  { "savq/melange-nvim" },
-  { "datsfilipe/vesper.nvim" },
-  { "nyoom-engineering/oxocarbon.nvim" },
+  { "nexxeln/vesper.nvim" },
+  { "devbydaniel/houston.nvim" },
+  { "vague-theme/vague.nvim" },
+  { "sainnhe/everforest" },
+  { "webhooked/kanso.nvim" },
+  { "https://git.harivan.sh/harivansh-afk/cozybox.nvim" },
+  { "builtbyleo/oc-2.nvim" },
+  {
+    "kcayme/bearded-arc.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  {
+    "embark-theme/vim",
+    lazy = false,
+    priority = 1000,
+    name = "embark",
+  },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+  },
+  { "folke/tokyonight.nvim" },
   {
     "sainnhe/gruvbox-material",
     config = function()
+      local gm = vim.g
       -- Optionally configure and load the colorscheme
       -- directly inside the plugin declaration.
-      vim.g.gruvbox_material_enable_italic = true
-      vim.cmd.colorscheme("gruvbox-material")
+      gm.gruvbox_material_enable_italic = true
+      gm.gruvbox_material_enable_bold = true
+      gm.gruvbox_material_background = "hard"
+      gm.gruvbox_material_foreground = "mix"
+      gm.gruvbox_material_statusline_style = "mix"
     end,
   },
 

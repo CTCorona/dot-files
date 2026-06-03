@@ -1,0 +1,26 @@
+{
+  "log to console": {
+    "prefix": "cl",
+    "body": ["console.log('${1:key}', ${2:value});", "$0"],
+    "description": "Log to console"
+  },
+  "log to console using dir": {
+    "prefix": "cd",
+    "body": ["console.dir(${1:item}, {depth: null});", "$0"],
+    "description": "Log to console using dir"
+  },
+  "ptt module": {
+    "prefix": "pttm",
+    "body": [
+      "import { TranslatedModuleProps } from \"@/lib/types\"",
+      "",
+      "export default function ${1:moduleName}({$2}: TranslatedModuleProps<'${1:moduleName}'>) {",
+      "\treturn (",
+      "\t\t$3",
+      "\t)",
+      "}",
+      ""
+    ],
+    "description": "ptt module"
+  }
+}

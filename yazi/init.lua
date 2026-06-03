@@ -1,5 +1,7 @@
+require("full-border"):setup({
+	type = ui.Border.ROUNDED,
+})
 require("sshfs"):setup()
-require("full-border"):setup()
 
 Status:children_add(function(self)
 	local h = self._current.hovered
