@@ -1,0 +1,5 @@
+{
+  "wallpaper": {
+    "postHook": "pkill -SIGUSR2 ghostty"
+  }
+}

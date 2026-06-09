@@ -1,0 +1,83 @@
+# Caelestia template for btop
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]=""
+
+# Main text color
+theme[main_fg]="{{onSurface.hex}}"
+
+# Title color for boxes
+theme[title]="{{onSurface.hex}}"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="{{secondary.hex}}"
+
+# Background color of selected items
+theme[selected_bg]="{{surfaceVariant.hex}}"
+
+# Foreground color of selected items
+theme[selected_fg]="{{onSurface.hex}}"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="{{outlineVariant.hex}}"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="{{onSurface.hex}}"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="{{tertiary.hex}}"
+
+# Cpu box outline color
+theme[cpu_box]="{{secondary.hex}}"
+
+# Memory/disks box outline color
+theme[mem_box]="{{tertiary.hex}}"
+
+# Net up/down box outline color
+theme[net_box]="{{error.hex}}"
+
+# Processes box outline color
+theme[proc_box]="{{primary.hex}}"
+
+# Box divider line and small boxes line color
+theme[div_line]="{{outlineVariant.hex}}"
+
+# Temperature graph colors
+theme[temp_start]="{{tertiary.hex}}"
+theme[temp_mid]="{{primary.hex}}"
+theme[temp_end]="{{error.hex}}"
+
+# CPU graph colors
+theme[cpu_start]="{{tertiary.hex}}"
+theme[cpu_mid]="{{primary.hex}}"
+theme[cpu_end]="{{error.hex}}"
+
+# Mem/Disk free meter
+theme[free_start]="{{error.hex}}"
+theme[free_mid]="{{primary.hex}}"
+theme[free_end]="{{tertiary.hex}}"
+
+# Mem/Disk cached meter
+theme[cached_start]="{{tertiary.hex}}"
+theme[cached_mid]="{{primary.hex}}"
+theme[cached_end]="{{error.hex}}"
+
+# Mem/Disk available meter
+theme[available_start]="{{tertiary.hex}}"
+theme[available_mid]="{{primary.hex}}"
+theme[available_end]="{{error.hex}}"
+
+# Mem/Disk used meter
+theme[used_start]="{{tertiary.hex}}"
+theme[used_mid]="{{primary.hex}}"
+theme[used_end]="{{error.hex}}"
+
+# Download graph colors
+theme[download_start]="{{tertiary.hex}}"
+theme[download_mid]="{{primary.hex}}"
+theme[download_end]="{{error.hex}}"
+
+# Upload graph colors
+theme[upload_start]="{{tertiary.hex}}"
+theme[upload_mid]="{{primary.hex}}"
+theme[upload_end]="{{error.hex}}"
