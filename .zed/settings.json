@@ -1,0 +1,5 @@
+{
+  "file_types": {
+    "TOML": ["*/hypr/*.conf", "*/pacsea/*.conf", "*/ghostty/*"]
+  }
+}

@@ -1,0 +1,83 @@
+# Matugen template for btop
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]=""
+
+# Main text color
+theme[main_fg]="#f4dddd"
+
+# Title color for boxes
+theme[title]="#f4dddd"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#f4ba9e"
+
+# Background color of selected items
+theme[selected_bg]="#584142"
+
+# Foreground color of selected items
+theme[selected_fg]="#f4dddd"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#584142"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#f4dddd"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#c1cd87"
+
+# Cpu box outline color
+theme[cpu_box]="#f4ba9e"
+
+# Memory/disks box outline color
+theme[mem_box]="#c1cd87"
+
+# Net up/down box outline color
+theme[net_box]="#ffb4ab"
+
+# Processes box outline color
+theme[proc_box]="#8bcefd"
+
+# Box divider line and small boxes line color
+theme[div_line]="#584142"
+
+# Temperature graph colors (verde -> amarillo -> rojo)
+theme[temp_start]="#c1cd87"
+theme[temp_mid]="#8bcefd"
+theme[temp_end]="#ffb4ab"
+
+# CPU graph colors (verde -> amarillo -> rojo)
+theme[cpu_start]="#c1cd87"
+theme[cpu_mid]="#8bcefd"
+theme[cpu_end]="#ffb4ab"
+
+# Mem/Disk free meter (rojo -> amarillo -> verde, invertido)
+theme[free_start]="#ffb4ab"
+theme[free_mid]="#8bcefd"
+theme[free_end]="#c1cd87"
+
+# Mem/Disk cached meter (verde -> amarillo -> rojo)
+theme[cached_start]="#c1cd87"
+theme[cached_mid]="#8bcefd"
+theme[cached_end]="#ffb4ab"
+
+# Mem/Disk available meter (verde -> amarillo -> rojo)
+theme[available_start]="#c1cd87"
+theme[available_mid]="#8bcefd"
+theme[available_end]="#ffb4ab"
+
+# Mem/Disk used meter (verde -> amarillo -> rojo)
+theme[used_start]="#c1cd87"
+theme[used_mid]="#8bcefd"
+theme[used_end]="#ffb4ab"
+
+# Download graph colors (verde -> amarillo -> rojo)
+theme[download_start]="#c1cd87"
+theme[download_mid]="#8bcefd"
+theme[download_end]="#ffb4ab"
+
+# Upload graph colors (verde -> amarillo -> rojo)
+theme[upload_start]="#c1cd87"
+theme[upload_mid]="#8bcefd"
+theme[upload_end]="#ffb4ab"
