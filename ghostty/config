@@ -1,12 +1,12 @@
 # Font Configuration
-font-family = Maple Mono NF SemiBold
-font-family-bold = Maple Mono NF Bold
-font-family-italic = Maple Mono NF SemiBold Italic
-font-family-bold-italic = Maple Mono NF SemiBold Bold Italic
+font-family = Lilex Nerd Font Propo Medium
+font-family-bold = Lilex Nerd Font Propo Bold
+font-family-italic = Lilex Nerd Font Propo Medium Italic
+font-family-bold-italic = Lilex Nerd Font Propo Bold Italic
 font-size = 12
 
 # Line height
-adjust-cell-height = 20%
+adjust-cell-height = 30%
 
 # Window Configuration
 window-decoration = false
@@ -16,7 +16,7 @@ background-opacity = 0.95
 background-blur-radius = 32
 
 # Cursor Configuration
-cursor-style = block
+cursor-style = underline
 cursor-style-blink = true
 
 # Scrollback
@@ -58,4 +58,4 @@ gtk-single-instance = true
 # config-file = ./themes/caelestia
 
 # caelestia theme
-theme = caelestia.conf
+# theme = caelestia.conf
