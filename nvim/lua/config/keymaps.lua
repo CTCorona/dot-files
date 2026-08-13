@@ -11,3 +11,8 @@ map("n", "<Leader><Right>", "<C-w><Right>", { desc = "Go to Right Window", remap
 map("n", "<Leader><Down>", "<C-w><Down>", { desc = "Go to Lower Window", remap = true })
 
 map({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save File" })
+
+-- vim.keymap.set("n", "gD", "<cmd>Glance definitions<cr>")
+-- vim.keymap.set("n", "gR", "<cmd>Glance references<cr>")
+-- vim.keymap.set("n", "gY", "<cmd>Glance definitions<cr>")
+-- vim.keymap.set("n", "gM", "<cmd>Glance definitions<cr>")
