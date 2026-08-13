@@ -3,9 +3,9 @@ return {
   { "rebelot/kanagawa.nvim" },
   { "nexxeln/vesper.nvim" },
   { "devbydaniel/houston.nvim" },
-  { "vague-theme/vague.nvim" },
+  { "vague-theme/vague.nvim", bold = true, italic = true },
   { "sainnhe/everforest" },
-  { "webhooked/kanso.nvim" },
+  { "webhooked/kanso.nvim", bold = true, italics = true },
   { "https://git.harivan.sh/harivansh-afk/cozybox.nvim" },
   { "builtbyleo/oc-2.nvim" },
   {
@@ -42,7 +42,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-material",
+      colorscheme = "tokyonight",
     },
   },
 }
